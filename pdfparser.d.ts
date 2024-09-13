@@ -52,7 +52,8 @@ export declare interface Page{
     Fills: Fill[],
     Texts: Text[],
     Fields: Field[],
-    Boxsets: Boxset[]
+    Boxsets: Boxset[],
+    Images: Boxset[]
 }
 
 export declare interface Fill {
