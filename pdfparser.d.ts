@@ -9,8 +9,8 @@ export declare class StringifyStream extends Transform {
 }
 
 export declare class ParserStream{
-	static createContentStream(jsonObj): Readable
-	static createOutputStream(outputPath, resolve, reject): fs.WriteStream
+	static createContentStream(jsonObj: any): Readable
+	static createOutputStream(outputPath: any, resolve: any, reject: any): fs.WriteStream
 }
 
 export declare class PDFParser extends EventEmitter{
